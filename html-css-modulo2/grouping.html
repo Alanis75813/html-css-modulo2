@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+</head>
+<style>
+    body{
+        font-family: arial, helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+    }
+
+    header{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    nav{
+        background-color: lightgrey;
+        padding: 3px;
+        border-radius: 10px 10px;
+        box-shadow: 1px 1px 1px black;
+    }
+
+    main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    article{
+        background-color: lightgrey;
+        padding: 5px;
+    }
+
+    article > aside{
+        background-color: rgb(165, 165, 165);
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+    }
+</style>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi ducimus temporibus sunt sed mollitia placeat est possimus, qui voluptatibus non ab maxime provident repudiandae illum, perferendis doloribus dicta quis id.</p>
+                <aside>
+                    <p>Artigo escrito por Alanis Pereira da Silva.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
